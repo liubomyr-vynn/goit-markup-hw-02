@@ -1,0 +1,47 @@
+/* чорний колір заголовків #212121 */
+/* білий колір тексту #FFFFFF */
+/* чорний колір лого "Studio" #000000 */
+/* синій колір акценту + лого "WEB" #2196F3 */
+/* колір посилання і телефону в шапці + параграфи #757575 */
+/* колір посилання і телефону в футер rgba(255, 255, 255, 0.6) */
+
+:root {
+	--maim-text-color: #212121;
+	--accent-color: #2196f3;
+	--logo-black: #000000;
+	--white-color: #ffffff;
+	--header-color: #757575;
+	--footer-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+	color: var(--maim-text-color);
+}
+
+/*  Шапка  */
+
+.logo {
+	color: var(--accent-color);
+}
+
+.navigation {
+	color: var(--maim-text-color);
+}
+
+.contacts {
+	color: var(--header-color);
+}
+
+.navigation:hover,
+.navigation:focus,
+.contacts:hover,
+.contacts:focus {
+	color: var(--accent-color);
+}
+
+/* Головний контент */
+
+/* Блок Особливості */
+.section-text {
+	color: var(--header-color);
+}
