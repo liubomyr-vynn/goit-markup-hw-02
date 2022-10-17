@@ -44,12 +44,6 @@ body {
 
 /* Головний контент */
 
-.hero {
-	background-color: var(--footer-background-color);
-}
-.hero-title {
-	color: var(--background-color);
-}
 .button {
 	color: var(--white-color);
 	background-color: var(--accent-color);
