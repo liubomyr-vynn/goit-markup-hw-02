@@ -34,7 +34,7 @@ body {
 	color: var(--header-paragraph-color);
 }
 
-.logo,
+.accent,
 .navigation:hover,
 .navigation:focus,
 .contacts:hover,
@@ -44,10 +44,6 @@ body {
 
 /* Головний контент */
 
-.button {
-	color: var(--white-color);
-	background-color: var(--accent-color);
-}
 /* Блок Особливості */
 
 .feature-text {
@@ -63,15 +59,3 @@ body {
 }
 
 /* Футер */
-.footer {
-	background-color: var(--footer-background-color);
-}
-.logo-footer,
-.footer-adress {
-	color: var(--white-color);
-}
-
-.footer-mail,
-.footer-phone {
-	color: var(--white-trasparent);
-}
