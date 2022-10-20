@@ -194,7 +194,7 @@ body {
 	border-radius: 4px;
 }
 
-.list-title {
+.portfolio-title {
 	color: var(--main-text);
 	font-weight: 700;
 	font-size: 18px;
@@ -202,7 +202,7 @@ body {
 	letter-spacing: 0.06em;
 }
 
-.list-text {
+.portfolio-text {
 	color: var(--secondary-text);
 	font-weight: 400;
 	font-size: 16px;
