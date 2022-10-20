@@ -3,59 +3,209 @@
 /* чорний колір лого "Studio" #000000 */
 /* синій колір акценту + лого "WEB" #2196F3 */
 /* колір посилання і телефону в шапці + параграфи #757575 */
-/* колір посилання і телефону в футер rgba(255, 255, 255, 0.6) */
+/* колір посилання і телефону в футері rgba(255, 255, 255, 0.6) */
 
 :root {
-	--main-color: #212121;
-	--accent-color: #2196f3;
+	--main-text: #212121;
+	--accent: #2196f3;
 	--logo-header: #000000;
 	--white-color: #ffffff;
 	--background-color: #f5f4fa;
-	--header-paragraph-color: #757575;
+	--secondary-text: #757575;
 	--white-trasparent: rgba(255, 255, 255, 0.6);
 	--footer-background-color: #2f303a;
 }
 
 body {
-	color: var(--main-color);
+	font-family: Roboto, sans-serif;
+	color: var(--main-text);
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+	font-style: normal;
+}
+
+.link:hover,
+.link:active {
+	color: var(--accent);
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 /*  Шапка  */
 
-.logo-header {
+.header-logo {
 	color: var(--logo-header);
+	font-family: Raleway, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
 }
 
-.navigation {
-	color: var(--main-color);
+.logo-accent {
+	color: var(--accent);
 }
 
-.contacts {
-	color: var(--header-paragraph-color);
+.header-navigation {
+	color: var(--main-text);
 }
 
-.accent,
-.navigation:hover,
-.navigation:focus,
-.contacts:hover,
-.contacts:focus {
-	color: var(--accent-color);
+.header-contacts {
+	color: var(--secondary-text);
 }
 
-/* Головний контент */
+.header-navigation,
+.header-contacts {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+/* Герой */
+
+.background {
+	background-color: var(--footer-background-color);
+}
+
+.hero-title {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white-color);
+}
+
+.hero-button {
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--background-color);
+	background: var(--accent);
+	border-radius: 4px;
+	border: 0;
+}
 
 /* Блок Особливості */
 
-.feature-text {
-	color: var(--header-paragraph-color);
+.hidden-title {
+	display: none;
 }
 
-/* Блок Чим займаємось */
+.feature-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.feature-text {
+	color: var(--secondary-text);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+/* Блок Чим ми займаємось */
 
 /* Наша команда */
 
+.team-title {
+	color: var(--main-text);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+
 .team-text {
-	color: var(--header-paragraph-color);
+	color: var(--secondary-text);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
 }
 
 /* Футер */
+
+.footer-logo {
+	color: var(--white-color);
+}
+
+.footer-adress {
+	color: var(--white-color);
+}
+
+.footer-mail,
+.footer-phone {
+	color: var(--white-trasparent);
+}
+
+.footer {
+	background-color: var(--footer-background-color);
+}
+
+/* Портфоліо */
+
+.filter {
+	font-family: Roboto, sans-serif;
+	color: var(--main-text);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background: var(--background-color);
+	border-radius: 4px;
+	border: 0;
+}
+
+.filter:hover,
+.filter:focus {
+	font-family: Roboto, sans-serif;
+	color: var(--white-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background: var(--accent);
+	border-radius: 4px;
+}
+
+.list-title {
+	color: var(--main-text);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.list-text {
+	color: var(--secondary-text);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.03em;
+}
