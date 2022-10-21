@@ -19,6 +19,7 @@
 
 body {
 	font-family: Roboto, sans-serif;
+	font-weight: 400;
 	color: var(--main-text);
 	background-color: var(--white-color);
 }
@@ -50,12 +51,12 @@ body {
 }
 
 .logo {
-	color: var(--accent);
 	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: calc(31 / 26);
 	letter-spacing: 0.03em;
+	color: var(--accent);
 }
 
 /*  Шапка  */
@@ -103,9 +104,6 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: calc(30 / 16);
-	display: flex;
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--background-color);
 	background: var(--accent);
@@ -145,7 +143,6 @@ body {
 
 .feature-text {
 	color: var(--secondary-text);
-	font-weight: 400;
 	font-size: 14px;
 	line-height: calc(24 / 14);
 	letter-spacing: 0.03em;
@@ -168,7 +165,6 @@ body {
 
 .team-text {
 	color: var(--secondary-text);
-	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(19 / 16);
 	letter-spacing: 0.03em;
@@ -193,6 +189,9 @@ body {
 }
 
 .footer {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
 	background-color: var(--footer-background-color);
 }
 
@@ -232,7 +231,6 @@ body {
 
 .portfolio-text {
 	color: var(--secondary-text);
-	font-weight: 400;
 	font-size: 16px;
 	line-height: calc(30 / 16);
 	letter-spacing: 0.03em;
