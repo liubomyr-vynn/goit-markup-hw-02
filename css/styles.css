@@ -25,7 +25,8 @@ body {
 	list-style: none;
 }
 
-.link {
+.link,
+.logo {
 	text-decoration: none;
 	font-style: normal;
 }
@@ -43,10 +44,8 @@ body {
 	letter-spacing: 0.03em;
 }
 
-/*  Шапка  */
-
-.header-logo {
-	color: var(--logo-header);
+.logo {
+	color: var(--accent);
 	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
@@ -54,8 +53,10 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.logo-accent {
-	color: var(--accent);
+/*  Шапка  */
+
+.header-logo {
+	color: var(--logo-header);
 }
 
 .header-navigation {
@@ -73,6 +74,8 @@ body {
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
+
+/*  Шапка  */
 
 /* Герой */
 
@@ -104,6 +107,8 @@ body {
 	border-radius: 4px;
 	border: 0;
 }
+
+/* Герой */
 
 /* Блок Особливості */
 
@@ -147,6 +152,8 @@ body {
 	letter-spacing: 0.03em;
 }
 
+/* Наша команда */
+
 /* Футер */
 
 .footer-logo {
@@ -165,6 +172,8 @@ body {
 .footer {
 	background-color: var(--footer-background-color);
 }
+
+/* Футер */
 
 /* Портфоліо */
 
@@ -209,3 +218,5 @@ body {
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 }
+
+/* Портфоліо */
